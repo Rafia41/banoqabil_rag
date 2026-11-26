@@ -1,0 +1,28 @@
+openai==1.30.1
+langchain==0.1.20
+langchain-openai==0.1.6
+langchain-pinecone==0.1.1
+langchain-community==0.0.38
+docarray==0.40.0
+pydantic==1.10.8
+python-dotenv==1.0.1
+tiktoken==0.7.0
+pinecone-client==3.2.2
+scikit-learn==1.4.2
+httpx==0.27.2
+langchain_core
+dotenv
+langchain_google_genai
+langchain_openai.chat_models
+langchain_pinecone
+langchain_text_splitters
+pinecone
+langchain_openai
+langchain_pinecone
+
+
+# --- added for pdf_rag.py (versions checked against the pins above) ---
+langchain-core==0.1.53            # what langchain 0.1.20 resolves to
+langchain-text-splitters==0.0.2   # what langchain 0.1.20 resolves to
+langchain-google-genai==1.0.4     # last 1.x line that works with langchain-core 0.1.x and pydantic v1
+pypdf==4.2.0                      # used by PyPDFLoader
